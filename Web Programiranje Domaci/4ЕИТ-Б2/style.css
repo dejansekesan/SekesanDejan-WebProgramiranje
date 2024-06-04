@@ -1,0 +1,63 @@
+body {
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+ 
+h1 {
+    text-align: center;
+}
+ 
+#nav {
+    text-align: center;
+}
+ 
+#nav ul a li {
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 20px 70px;
+    color: maroon;
+}
+ 
+#nav ul a li:hover {
+    color: white;
+    background-color:maroon;
+}
+ 
+.container {
+    text-align: center;
+    margin-top: 10%;
+}
+ 
+.container img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+ 
+footer{
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    padding: 20px;
+}
+
+body {
+  background-image: url('images/farmnatureplace2.jpg');
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+h1 {
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+                 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+  }
